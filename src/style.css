@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-platinum: #1A1D20;
+  --color-dark-graphite: #24282C;
+  --color-platinum-white: #F3F4F6;
+  --color-matte-gold: #C5A059;
+  --font-serif: "Cormorant", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-dark-platinum text-platinum-white font-sans overflow-x-hidden;
+  }
+  h1, h2, h3, h4, h5, h6, .font-serif {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  }
+  .bg-glass {
+    @apply bg-dark-graphite/80 backdrop-blur-md border border-white/5;
+  }
+  .gold-gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#C5A059] to-[#E5C07B];
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #121212;
+  color: #F5F5F5;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1A1D20;
+}
+::-webkit-scrollbar-thumb {
+  background: #24282C;
+  border: 1px solid #C5A059;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A059;
+}
+
+/* Smooth Image Hovers */
+.image-zoom-container {
+  overflow: hidden;
+}
+.image-zoom-container img {
+  transition: transform 0.7s ease;
+}
+.image-zoom-container:hover img {
+  transform: scale(1.05);
+}
+
+/* Testimonial slider hidden scrollbar */
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+.hide-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
