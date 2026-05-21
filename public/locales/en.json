@@ -45,7 +45,7 @@
   "menu_special_2_desc": "The art of henna painting",
   "menu_special_3_title": "Piercing",
   "menu_special_3_desc": "Professional piercing of any complexity",
-  "menu_button_full": "View Full Price List",
+  "menu_button_full": "View Full Menu",
   "menu_brows_lashes_category": "Brows & Lashes",
   "menu_cosm_category": "Cosmetology & Aesthetics",
   "menu_cosm_1_title": "Permanent Makeup",
@@ -59,5 +59,6 @@
   "menu_tattoo_removal_title": "Laser Removal",
   "menu_tattoo_removal_desc": "Safe tattoo and PMU removal",
   "menu_epilation_title": "SPA Epilation",
-  "menu_epilation_desc": "Premium sugaring and waxing"
+  "menu_epilation_desc": "Premium sugaring and waxing",
+  "footer_created": "Created by"
 }

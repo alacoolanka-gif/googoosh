@@ -45,7 +45,7 @@
   "menu_special_2_desc": "Искусство росписи хной",
   "menu_special_3_title": "Пирсинг",
   "menu_special_3_desc": "Профессиональный пирсинг любой сложности",
-  "menu_button_full": "Смотреть полный прайс",
+  "menu_button_full": "Смотреть полное меню",
   "menu_brows_lashes_category": "Брови и Ресницы",
   "menu_cosm_category": "Косметология и Эстетика",
   "menu_cosm_1_title": "Перманентный макияж",
@@ -59,5 +59,6 @@
   "menu_tattoo_removal_title": "Лазерное удаление",
   "menu_tattoo_removal_desc": "Безопасное удаление тату и перманента",
   "menu_epilation_title": "SPA-Эпиляция",
-  "menu_epilation_desc": "Шугаринг и депиляция премиум-класса"
+  "menu_epilation_desc": "Шугаринг и депиляция премиум-класса",
+  "footer_created": "Создано"
 }
